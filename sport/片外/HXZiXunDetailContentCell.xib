@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="209" id="KGk-i7-Jjw" customClass="HXZiXunDetailContentCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="293"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="292.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3a-i5-aDh">
+                        <rect key="frame" x="15" y="0.0" width="345" height="284.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="回来了！勇士重签一人！和东契奇冲突之人回归" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODa-H6-cTk">
+                                <rect key="frame" x="15" y="9" width="315" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020.01.06  23:10" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaB-9G-lBu">
+                                <rect key="frame" x="15" y="65" width="94.5" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcv-HF-k5K">
+                                <rect key="frame" x="15" y="93.5" width="315" height="167.5"/>
+                                <string key="text">[恒大欲清洗老将只留郑智一人 限薪阻碍球员转会]今天是恒大集中的日子，球队将会在7日早上体检后，下午就乘坐18点30分的航班前往迪拜冬训。恒大俱乐部把所有外租球员都召回了球队，让主教练卡纳瓦罗定夺去留。据了解，恒大俱乐部原本是希望把郜林、冯潇霆和黄博文这些老将转会出去。为俱乐部减轻运营成本同时，也为年轻球员腾出更多的比赛空间，而且又让老将们在别的球队踢上比赛。从目前情况来看，恒大的这一计划进展得并不顺利。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vcv-HF-k5K" firstAttribute="leading" secondItem="w3a-i5-aDh" secondAttribute="leading" constant="15" id="5TM-cR-sDh"/>
+                            <constraint firstItem="ODa-H6-cTk" firstAttribute="top" secondItem="w3a-i5-aDh" secondAttribute="top" constant="9" id="7g8-no-cr6"/>
+                            <constraint firstItem="RaB-9G-lBu" firstAttribute="leading" secondItem="w3a-i5-aDh" secondAttribute="leading" constant="15" id="Fs0-jO-5mJ"/>
+                            <constraint firstItem="vcv-HF-k5K" firstAttribute="top" secondItem="RaB-9G-lBu" secondAttribute="bottom" constant="15" id="RqW-a3-ybJ"/>
+                            <constraint firstItem="ODa-H6-cTk" firstAttribute="leading" secondItem="w3a-i5-aDh" secondAttribute="leading" constant="15" id="cVA-2V-3ID"/>
+                            <constraint firstAttribute="trailing" secondItem="ODa-H6-cTk" secondAttribute="trailing" constant="15" id="gwX-ce-wfc"/>
+                            <constraint firstAttribute="trailing" secondItem="vcv-HF-k5K" secondAttribute="trailing" constant="15" id="qfe-H4-Tnd"/>
+                            <constraint firstItem="RaB-9G-lBu" firstAttribute="top" secondItem="ODa-H6-cTk" secondAttribute="bottom" constant="8" id="sk2-Je-nAw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95292967559999997" green="0.95293515920000005" blue="0.95294982189999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="w3a-i5-aDh" secondAttribute="bottom" constant="8" id="HSc-A1-pNr"/>
+                    <constraint firstAttribute="trailing" secondItem="w3a-i5-aDh" secondAttribute="trailing" constant="15" id="UNi-bK-KRg"/>
+                    <constraint firstItem="w3a-i5-aDh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="rh9-Ag-FL3"/>
+                    <constraint firstItem="w3a-i5-aDh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="u3E-MO-wIw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="101.59999999999999" y="269.41529235382313"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="48" id="KGk-i7-Jjw" customClass="HXZiXunDetailPayedCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6p-Zk-ahb">
+                        <rect key="frame" x="15" y="0.0" width="345" height="121.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qre-ul-gTR">
+                                <rect key="frame" x="15" y="30" width="330" height="91.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="zmB-en-iAQ">
+                                        <rect key="frame" x="8" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="DX0-qv-t2z">
+                                        <rect key="frame" x="44" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="nEe-S1-IgO">
+                                        <rect key="frame" x="84" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="gCN-T6-Mib">
+                                        <rect key="frame" x="156" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="2kj-sW-j5r">
+                                        <rect key="frame" x="8" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="aOD-yi-OIS">
+                                        <rect key="frame" x="84" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="P33-pB-LIr">
+                                        <rect key="frame" x="126" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="MHs-vP-uT9">
+                                        <rect key="frame" x="123" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="7iG-dO-mys">
+                                        <rect key="frame" x="196" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="rr4-uf-Vbg">
+                                        <rect key="frame" x="270" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="On6-JV-FpB">
+                                        <rect key="frame" x="234" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="hxg-3P-HzS">
+                                        <rect key="frame" x="196" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="57P-zF-xgq">
+                                        <rect key="frame" x="159" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kedui_match" translatesAutoresizingMaskIntoConstraints="NO" id="6Jp-yp-SyV">
+                                        <rect key="frame" x="234" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="8V6-6U-B0A">
+                                        <rect key="frame" x="303" y="12" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhudui_match" translatesAutoresizingMaskIntoConstraints="NO" id="YFx-Hl-Uyc">
+                                        <rect key="frame" x="44" y="52" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnc-3U-ZI0">
+                                <rect key="frame" x="0.0" y="0.0" width="345" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15人已付费" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfb-Vh-tCe">
+                                        <rect key="frame" x="26" y="11" width="70" height="17"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A4M-Pc-FjW">
+                                        <rect key="frame" x="17" y="14" width="2" height="12"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.29803921570000003" green="0.69411764710000001" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cuL-Dn-UAo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qre-ul-gTR" firstAttribute="leading" secondItem="I6p-Zk-ahb" secondAttribute="leading" constant="15" id="5Kc-UQ-nGY"/>
+                            <constraint firstAttribute="trailing" secondItem="qre-ul-gTR" secondAttribute="trailing" id="9Zm-Sb-Hak"/>
+                            <constraint firstItem="qre-ul-gTR" firstAttribute="top" secondItem="vnc-3U-ZI0" secondAttribute="bottom" id="GTe-vv-c2C"/>
+                            <constraint firstAttribute="trailing" secondItem="vnc-3U-ZI0" secondAttribute="trailing" id="MVN-0W-Dm6"/>
+                            <constraint firstAttribute="bottom" secondItem="qre-ul-gTR" secondAttribute="bottom" id="SKQ-p4-E6u"/>
+                            <constraint firstItem="vnc-3U-ZI0" firstAttribute="top" secondItem="I6p-Zk-ahb" secondAttribute="top" id="d0r-aO-SqR"/>
+                            <constraint firstItem="vnc-3U-ZI0" firstAttribute="leading" secondItem="I6p-Zk-ahb" secondAttribute="leading" id="vjq-Dg-c6r"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95292967559999997" green="0.95293515920000005" blue="0.95294982189999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="I6p-Zk-ahb" secondAttribute="bottom" constant="8" id="5YN-Ls-XEU"/>
+                    <constraint firstItem="I6p-Zk-ahb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Fmk-VK-LIQ"/>
+                    <constraint firstAttribute="trailing" secondItem="I6p-Zk-ahb" secondAttribute="trailing" constant="15" id="qS9-On-NGa"/>
+                    <constraint firstItem="I6p-Zk-ahb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="sHo-qz-9OD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="173.59999999999999" y="60.26986506746627"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kedui_match" width="54" height="54"/>
+        <image name="zhudui_match" width="54" height="54"/>
+    </resources>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayerInformationVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gxp-hr-nnx">
+                    <rect key="frame" x="0.0" y="30" width="375" height="56"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="所在城市：中国广州" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTR-vl-Wym">
+                            <rect key="frame" x="23" y="8" width="116" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.20069780949999999" green="0.20068871969999999" blue="0.2006948888" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="成立时间：1977" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L72-o2-0am">
+                            <rect key="frame" x="234" y="7" width="124" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.21453678609999999" green="0.2144221067" blue="0.22314223650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="球队主场：天河体育中心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGg-bv-OIz">
+                            <rect key="frame" x="23" y="35" width="140" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="iw9-tL-pOZ"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfY-t0-xqt">
+                    <rect key="frame" x="23" y="94" width="50" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="kKc-xG-rLb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nID-kJ-apU">
+                    <rect key="frame" x="23" y="117" width="340" height="358"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="358" id="8U6-AZ-dZy"/>
+                    </constraints>
+                    <mutableString key="text">       狮子爱上了农夫的女儿，请求农夫把女儿嫁给他。农夫既不忍心把女儿许配给野兽，又不敢拒绝，就想出一个办法
+　　
+　　当狮子来催促的时候，农夫对他说：“我愿意把女儿嫁给你，可是我的女儿害怕你的尖牙和利爪，而且我也担心这些会伤害到她。如果你能剪掉你的利爪，并且磨平你的牙齿，我就立刻让女儿与你成婚。”
+　　
+　　狮子高兴得不得了，说道：“只要能娶到她，什么条件我都答应，我马上按照你的意思去做！”
+　　
+　　狮子回去后剪掉了自己尖利的爪子，在磨石上磨平了尖锐的牙齿。他打扮一新，到农夫家里迎娶新娘。可是到了农夫家门口，却发现农夫手提木棒，朝自己走来，看样子来者不善。狮子警惕地摆好了架势。
+　　
+　　果然农夫一阵乱棒像雨点一样敲击下来，但是狮子却无力还击，因为他的爪子和牙齿全然没有任何威力。
+　　
+　　最后狮子落荒而逃，更糟糕的是，没有了尖牙、利爪，狮子再也无法捕捉到猎物，最后饿得奄奄一息。
+　　
+　　启发：这故事说明，有些人轻易相信别人的话，抛弃自己特有的长处，结果，轻而易举地被原来恐惧他们的人击败了。</mutableString>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                    <color key="textColor" red="0.57281661029999997" green="0.56860941649999996" blue="0.57938772439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.95926910639999996" green="0.95923322440000003" blue="0.95925766229999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="Gxp-hr-nnx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4b7-Fp-zYx"/>
+                <constraint firstAttribute="trailing" secondItem="Gxp-hr-nnx" secondAttribute="trailing" id="74h-9G-Ybo"/>
+                <constraint firstItem="gfY-t0-xqt" firstAttribute="top" secondItem="Gxp-hr-nnx" secondAttribute="bottom" constant="8" id="Qe4-pR-FiD"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="nID-kJ-apU" secondAttribute="trailing" constant="12" id="ZMx-Yt-HRk"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="gfY-t0-xqt" secondAttribute="trailing" constant="302" id="eND-L3-Fxj"/>
+                <constraint firstItem="nID-kJ-apU" firstAttribute="top" secondItem="gfY-t0-xqt" secondAttribute="bottom" constant="8" id="etG-qH-wAI"/>
+                <constraint firstItem="nID-kJ-apU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="23" id="mTr-zl-n0B"/>
+                <constraint firstItem="Gxp-hr-nnx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="q1A-3d-EyL"/>
+                <constraint firstItem="gfY-t0-xqt" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="23" id="rh4-in-CxP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="264.80000000000001" y="-68.815592203898049"/>
+        </view>
+    </objects>
+</document>

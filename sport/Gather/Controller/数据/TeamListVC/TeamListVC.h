@@ -1,0 +1,26 @@
+//
+//  TeamListVC.h
+//  Sports
+//
+//  Created by test on 2020/1/9.
+//  Copyright © 2020 test. All rights reserved.
+//
+
+
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface TeamListVC : UIViewController
+@property(nonatomic,strong)UIView *musterView;//集合视图
+@property(retain,nonatomic)UIButton *leftBtn;
+@property(retain,nonatomic)UIButton *rightBtn;
+@property(retain,nonatomic)UILabel *centerText;
+
+@end
+
+NS_ASSUME_NONNULL_END
+
+
+

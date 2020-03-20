@@ -35,7 +35,6 @@
         
         
 }
-
  #pragma mark - 获取路径
 - (void)updatedgetApiPath
 {
@@ -54,7 +53,7 @@
 //               NSLog(@"网页地址3:%@", Api[@"paypal_url"]);
 //               NSLog(@"网页地址4:%@", Api[@"wxpay_url"]);
 //               NSLog(@"网页地址5:%@", Api[@"site"]);
-                 
+             //   NSString *
            }
            NSLog(@"解析:%@",dic);//打印
        });

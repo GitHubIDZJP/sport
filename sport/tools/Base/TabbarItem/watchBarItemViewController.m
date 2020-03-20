@@ -1,21 +1,12 @@
 
+//资讯------->
 #import "watchBarItemViewController.h"
 
 @interface watchBarItemViewController ()
-
 @end
-
-
-
-
-
 @implementation watchBarItemViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    
     NSMutableDictionary *parameter =[[NSMutableDictionary alloc]init];
        parameter[@"api_id"] = @"2";
        parameter[@"version"] = @"sd";
@@ -30,7 +21,7 @@
                NSLog(@"网页地址3:%@", dicValue[@"paypal_url"]);
                NSLog(@"网页地址4:%@", dicValue[@"wxpay_url"]);
                NSLog(@"网页地址5:%@", dicValue[@"site"]);
-           }
+           }   
            NSLog(@"解析:%@",dic);//打印
        });
     

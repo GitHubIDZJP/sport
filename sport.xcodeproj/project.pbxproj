@@ -554,6 +554,7 @@
 		5243F57324054B0C00FA4367 /* NonselectiveState@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5243F3F124054B0C00FA4367 /* NonselectiveState@2x.png */; };
 		5243F57424054B0C00FA4367 /* userCenterHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F3F324054B0C00FA4367 /* userCenterHeaderView.m */; };
 		5243F57524054B0C00FA4367 /* Image 拷贝 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5243F3F424054B0C00FA4367 /* Image 拷贝 3@2x.png */; };
+		5273BFBA2424CF3D007BA3EE /* zjpNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5273BFB92424CF3D007BA3EE /* zjpNetWork.m */; };
 		5282E5EA2411E009006B8818 /* UISegmentedControl+adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282E5E92411E009006B8818 /* UISegmentedControl+adapter.m */; };
 		5286813924187926002642BB /* ApiTestFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5286813724187926002642BB /* ApiTestFirstVC.m */; };
 		5286813A24187926002642BB /* ApiTestFirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5286813824187926002642BB /* ApiTestFirstVC.xib */; };
@@ -1345,6 +1346,8 @@
 		5243F3F224054B0C00FA4367 /* moneyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moneyModel.h; sourceTree = "<group>"; };
 		5243F3F324054B0C00FA4367 /* userCenterHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userCenterHeaderView.m; sourceTree = "<group>"; };
 		5243F3F424054B0C00FA4367 /* Image 拷贝 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image 拷贝 3@2x.png"; sourceTree = "<group>"; };
+		5273BFB82424CF3D007BA3EE /* zjpNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zjpNetWork.h; sourceTree = "<group>"; };
+		5273BFB92424CF3D007BA3EE /* zjpNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zjpNetWork.m; sourceTree = "<group>"; };
 		5282E5E82411E009006B8818 /* UISegmentedControl+adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+adapter.h"; sourceTree = "<group>"; };
 		5282E5E92411E009006B8818 /* UISegmentedControl+adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+adapter.m"; sourceTree = "<group>"; };
 		5286813624187926002642BB /* ApiTestFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiTestFirstVC.h; sourceTree = "<group>"; };
@@ -1483,6 +1486,8 @@
 				5243EFFA24054B0400FA4367 /* JHRequest.m */,
 				5243EFFB24054B0400FA4367 /* JHGlobalMethod.m */,
 				5243EFFC24054B0400FA4367 /* PrefixHeader.pch */,
+				5273BFB82424CF3D007BA3EE /* zjpNetWork.h */,
+				5273BFB92424CF3D007BA3EE /* zjpNetWork.m */,
 			);
 			path = URLRequest;
 			sourceTree = "<group>";
@@ -3816,6 +3821,7 @@
 				5243F4CF24054B0C00FA4367 /* AccountSetVC.m in Sources */,
 				5243EFEF24054AF700FA4367 /* HXZiXunDetailContentCell.m in Sources */,
 				5243F57424054B0C00FA4367 /* userCenterHeaderView.m in Sources */,
+				5273BFBA2424CF3D007BA3EE /* zjpNetWork.m in Sources */,
 				5243F46324054B0C00FA4367 /* dataTableCell.m in Sources */,
 				5243F53024054B0C00FA4367 /* HXArticlesViewController.m in Sources */,
 				5243F0F024054B0400FA4367 /* setButtonRadius.m in Sources */,

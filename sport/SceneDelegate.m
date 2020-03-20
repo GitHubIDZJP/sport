@@ -15,8 +15,8 @@
     
     UIWindowScene *winRoot = (UIWindowScene*)scene;
                 self.window = [[UIWindow alloc]initWithWindowScene:winRoot];
-    //            self.window.rootViewController = [[SportsViewController alloc]init];
-   self.window.rootViewController = [[ApiTestFirstVC alloc]init];
+                self.window.rootViewController = [[SportsViewController alloc]init];
+ //  self.window.rootViewController = [[ApiTestFirstVC alloc]init];
                self.window.backgroundColor = [UIColor whiteColor];
 
                 [self.window makeKeyAndVisible];

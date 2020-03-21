@@ -4165,7 +4165,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2T36JSZMZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/test/Desktop/sport/sport/tools/URLRequest/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sport/tools/URLRequest/PrefixHeader.pch";
 				INFOPLIST_FILE = sport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4185,7 +4185,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2T36JSZMZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/test/Desktop/sport/sport/tools/URLRequest/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sport/tools/URLRequest/PrefixHeader.pch";
 				INFOPLIST_FILE = sport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

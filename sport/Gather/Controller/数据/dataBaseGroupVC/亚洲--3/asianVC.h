@@ -1,20 +1,15 @@
-//
-//  EuropeVC.h
-//  Sports
-//
-//  Created by test on 2020/1/9.
-//  Copyright © 2020 test. All rights reserved.
-//
 
-//欧洲
+//亚洲
+
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EuropeVC : UIViewController
-{
-    NSInteger isSel;
-}
+@interface asianVC : UIViewController
+//{
+//    NSInteger isSel;
+//}
+@property (nonatomic,assign) NSInteger isSel;
 @property (nonatomic,assign) NSInteger index;
 @property (nonatomic,copy) NSString *titleStr;
 @property(nonatomic,strong)UITableView *tableView;
@@ -25,3 +20,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+

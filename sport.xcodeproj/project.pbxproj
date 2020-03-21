@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		13DDD1D218ADE557C9B4D595 /* Pods_sport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C42AB888C623E433C432B8 /* Pods_sport.framework */; };
-		5229B1982425B16600FEED8F /* exceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229B1962425B16600FEED8F /* exceptionViewController.m */; };
-		5229B1992425B16600FEED8F /* exceptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5229B1972425B16600FEED8F /* exceptionViewController.xib */; };
+		5229B1C42426266900FEED8F /* AfricaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229B1C22426266900FEED8F /* AfricaViewController.m */; };
+		5229B1C52426266A00FEED8F /* AfricaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5229B1C32426266900FEED8F /* AfricaViewController.xib */; };
+		5229B1CA2426271F00FEED8F /* americasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229B1C82426271F00FEED8F /* americasViewController.m */; };
+		5229B1CB2426271F00FEED8F /* americasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5229B1C92426271F00FEED8F /* americasViewController.xib */; };
 		5243EFBC24054A9F00FA4367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFBB24054A9F00FA4367 /* AppDelegate.m */; };
 		5243EFBF24054A9F00FA4367 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFBE24054A9F00FA4367 /* SceneDelegate.m */; };
 		5243EFC224054A9F00FA4367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFC124054A9F00FA4367 /* ViewController.m */; };
@@ -303,7 +305,6 @@
 		5243F47624054B0C00FA4367 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25824054B0B00FA4367 /* MyCollectionViewCell.m */; };
 		5243F47724054B0C00FA4367 /* oceaniaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25A24054B0B00FA4367 /* oceaniaVC.m */; };
 		5243F47824054B0C00FA4367 /* oceaniaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5243F25B24054B0B00FA4367 /* oceaniaVC.xib */; };
-		5243F47924054B0C00FA4367 /* AmericaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25F24054B0B00FA4367 /* AmericaVC.m */; };
 		5243F47A24054B0C00FA4367 /* scheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F26124054B0B00FA4367 /* scheduleCell.m */; };
 		5243F47B24054B0C00FA4367 /* scheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5243F26224054B0B00FA4367 /* scheduleCell.xib */; };
 		5243F47C24054B0C00FA4367 /* SectionChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F26624054B0B00FA4367 /* SectionChooseView.m */; };
@@ -567,9 +568,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5229B1952425B16600FEED8F /* exceptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exceptionViewController.h; sourceTree = "<group>"; };
-		5229B1962425B16600FEED8F /* exceptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exceptionViewController.m; sourceTree = "<group>"; };
-		5229B1972425B16600FEED8F /* exceptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = exceptionViewController.xib; sourceTree = "<group>"; };
+		5229B1C12426266900FEED8F /* AfricaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfricaViewController.h; sourceTree = "<group>"; };
+		5229B1C22426266900FEED8F /* AfricaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfricaViewController.m; sourceTree = "<group>"; };
+		5229B1C32426266900FEED8F /* AfricaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfricaViewController.xib; sourceTree = "<group>"; };
+		5229B1C72426271F00FEED8F /* americasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = americasViewController.h; sourceTree = "<group>"; };
+		5229B1C82426271F00FEED8F /* americasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = americasViewController.m; sourceTree = "<group>"; };
+		5229B1C92426271F00FEED8F /* americasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = americasViewController.xib; sourceTree = "<group>"; };
 		5243EFB724054A9F00FA4367 /* sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5243EFBA24054A9F00FA4367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5243EFBB24054A9F00FA4367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1004,8 +1008,6 @@
 		5243F25A24054B0B00FA4367 /* oceaniaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oceaniaVC.m; sourceTree = "<group>"; };
 		5243F25B24054B0B00FA4367 /* oceaniaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = oceaniaVC.xib; sourceTree = "<group>"; };
 		5243F25C24054B0B00FA4367 /* oceaniaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oceaniaVC.h; sourceTree = "<group>"; };
-		5243F25E24054B0B00FA4367 /* AmericaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericaVC.h; sourceTree = "<group>"; };
-		5243F25F24054B0B00FA4367 /* AmericaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericaVC.m; sourceTree = "<group>"; };
 		5243F26124054B0B00FA4367 /* scheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleCell.m; sourceTree = "<group>"; };
 		5243F26224054B0B00FA4367 /* scheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scheduleCell.xib; sourceTree = "<group>"; };
 		5243F26324054B0B00FA4367 /* scheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleCell.h; sourceTree = "<group>"; };
@@ -1397,14 +1399,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		5229B19A2425B1DA00FEED8F /* 美洲赛事6 */ = {
+		5229B1C02426265B00FEED8F /* 非洲--5 */ = {
 			isa = PBXGroup;
 			children = (
-				5229B1952425B16600FEED8F /* exceptionViewController.h */,
-				5229B1962425B16600FEED8F /* exceptionViewController.m */,
-				5229B1972425B16600FEED8F /* exceptionViewController.xib */,
+				5229B1C12426266900FEED8F /* AfricaViewController.h */,
+				5229B1C22426266900FEED8F /* AfricaViewController.m */,
+				5229B1C32426266900FEED8F /* AfricaViewController.xib */,
 			);
-			path = "美洲赛事6";
+			path = "非洲--5";
+			sourceTree = "<group>";
+		};
+		5229B1C62426271400FEED8F /* 美洲--6 */ = {
+			isa = PBXGroup;
+			children = (
+				5229B1C72426271F00FEED8F /* americasViewController.h */,
+				5229B1C82426271F00FEED8F /* americasViewController.m */,
+				5229B1C92426271F00FEED8F /* americasViewController.xib */,
+			);
+			path = "美洲--6";
 			sourceTree = "<group>";
 		};
 		5243EFAE24054A9F00FA4367 = {
@@ -2376,25 +2388,25 @@
 		5243F24424054B0B00FA4367 /* dataBaseGroupVC */ = {
 			isa = PBXGroup;
 			children = (
-				5229B19A2425B1DA00FEED8F /* 美洲赛事6 */,
-				5243F24524054B0B00FA4367 /* 关注0 */,
-				5243F24B24054B0B00FA4367 /* 欧洲2 */,
-				5243F24F24054B0B00FA4367 /* 国际1 */,
-				5243F25224054B0B00FA4367 /* 大洋洲赛事4 */,
-				5243F25624054B0B00FA4367 /* interVCCollectionCellCustom */,
-				5243F25924054B0B00FA4367 /* 大洋洲5 */,
-				5243F25D24054B0B00FA4367 /* 亚洲赛事3 */,
+				5243F25624054B0B00FA4367 /* 国际cell */,
+				5243F24524054B0B00FA4367 /* 关注--0 */,
+				5243F24F24054B0B00FA4367 /* 国际--1 */,
+				5243F24B24054B0B00FA4367 /* 欧洲--2 */,
+				5243F25224054B0B00FA4367 /* 亚洲--3 */,
+				5243F25924054B0B00FA4367 /* 大洋洲--4 */,
+				5229B1C02426265B00FEED8F /* 非洲--5 */,
+				5229B1C62426271400FEED8F /* 美洲--6 */,
 			);
 			path = dataBaseGroupVC;
 			sourceTree = "<group>";
 		};
-		5243F24524054B0B00FA4367 /* 关注0 */ = {
+		5243F24524054B0B00FA4367 /* 关注--0 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F24624054B0B00FA4367 /* attentionVC.m */,
 				5243F24A24054B0B00FA4367 /* attentionVC.h */,
 			);
-			path = "关注0";
+			path = "关注--0";
 			sourceTree = "<group>";
 		};
 		5243F24724054B0B00FA4367 /* 拖拽按钮封装 */ = {
@@ -2406,60 +2418,51 @@
 			path = "拖拽按钮封装";
 			sourceTree = "<group>";
 		};
-		5243F24B24054B0B00FA4367 /* 欧洲2 */ = {
+		5243F24B24054B0B00FA4367 /* 欧洲--2 */ = {
 			isa = PBXGroup;
 			children = (
-				5243F24C24054B0B00FA4367 /* EuropeVC.m */,
 				5243F24D24054B0B00FA4367 /* EuropeVC.h */,
+				5243F24C24054B0B00FA4367 /* EuropeVC.m */,
 				5243F24E24054B0B00FA4367 /* EuropeVC.xib */,
 			);
-			path = "欧洲2";
+			path = "欧洲--2";
 			sourceTree = "<group>";
 		};
-		5243F24F24054B0B00FA4367 /* 国际1 */ = {
+		5243F24F24054B0B00FA4367 /* 国际--1 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25024054B0B00FA4367 /* interVC.m */,
 				5243F25124054B0B00FA4367 /* interVC.h */,
 			);
-			path = "国际1";
+			path = "国际--1";
 			sourceTree = "<group>";
 		};
-		5243F25224054B0B00FA4367 /* 大洋洲赛事4 */ = {
+		5243F25224054B0B00FA4367 /* 亚洲--3 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25324054B0B00FA4367 /* asianVC.h */,
 				5243F25424054B0B00FA4367 /* asianVC.m */,
 			);
-			path = "大洋洲赛事4";
+			path = "亚洲--3";
 			sourceTree = "<group>";
 		};
-		5243F25624054B0B00FA4367 /* interVCCollectionCellCustom */ = {
+		5243F25624054B0B00FA4367 /* 国际cell */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25724054B0B00FA4367 /* MyCollectionViewCell.h */,
 				5243F25824054B0B00FA4367 /* MyCollectionViewCell.m */,
 			);
-			path = interVCCollectionCellCustom;
+			path = "国际cell";
 			sourceTree = "<group>";
 		};
-		5243F25924054B0B00FA4367 /* 大洋洲5 */ = {
+		5243F25924054B0B00FA4367 /* 大洋洲--4 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25A24054B0B00FA4367 /* oceaniaVC.m */,
 				5243F25B24054B0B00FA4367 /* oceaniaVC.xib */,
 				5243F25C24054B0B00FA4367 /* oceaniaVC.h */,
 			);
-			path = "大洋洲5";
-			sourceTree = "<group>";
-		};
-		5243F25D24054B0B00FA4367 /* 亚洲赛事3 */ = {
-			isa = PBXGroup;
-			children = (
-				5243F25E24054B0B00FA4367 /* AmericaVC.h */,
-				5243F25F24054B0B00FA4367 /* AmericaVC.m */,
-			);
-			path = "亚洲赛事3";
+			path = "大洋洲--4";
 			sourceTree = "<group>";
 		};
 		5243F26024054B0B00FA4367 /* scheduleCell */ = {
@@ -3483,6 +3486,7 @@
 				5243F14224054B0400FA4367 /* 客服@2x.png in Resources */,
 				5243F56624054B0C00FA4367 /* 返 回 拷贝@2x.png in Resources */,
 				5243F48C24054B0C00FA4367 /* HXTestViewController.xib in Resources */,
+				5229B1C52426266A00FEED8F /* AfricaViewController.xib in Resources */,
 				5243F46024054B0C00FA4367 /* 8@2x.png in Resources */,
 				5243F4C424054B0C00FA4367 /* 组 1@2x.png in Resources */,
 				5243F4B324054B0C00FA4367 /* TEST.xib in Resources */,
@@ -3520,7 +3524,6 @@
 				5243F48F24054B0C00FA4367 /* PersonalCenterAvatars@3x.png in Resources */,
 				5243F55F24054B0C00FA4367 /* noSel@3x.png in Resources */,
 				5243EFCA24054AA200FA4367 /* LaunchScreen.storyboard in Resources */,
-				5229B1992425B16600FEED8F /* exceptionViewController.xib in Resources */,
 				5243F4DF24054B0C00FA4367 /* 通知(1)@3x.png in Resources */,
 				5243F42D24054B0C00FA4367 /* FloatingWindow@3x.png in Resources */,
 				5243F43424054B0C00FA4367 /* 图层 1@2x.png in Resources */,
@@ -3618,6 +3621,7 @@
 				5243F3F924054B0C00FA4367 /* PlayerInformationVC.xib in Resources */,
 				5243F10E24054B0400FA4367 /* upIcon.png in Resources */,
 				5243F0FF24054B0400FA4367 /* selectYes@2x.png in Resources */,
+				5229B1CB2426271F00FEED8F /* americasViewController.xib in Resources */,
 				5243F54D24054B0C00FA4367 /* logo2@2x.png in Resources */,
 				5243F44324054B0C00FA4367 /* 浏览_me_test@3x.png in Resources */,
 				5243F43324054B0C00FA4367 /* 0b46f21fbe096b63c86d919602338744eaf8ac84 拷贝@3x.png in Resources */,
@@ -3789,6 +3793,7 @@
 				5243F14E24054B0400FA4367 /* BaseNavigationController.m in Sources */,
 				5243F49C24054B0C00FA4367 /* userProfileVC.m in Sources */,
 				5243F47A24054B0C00FA4367 /* scheduleCell.m in Sources */,
+				5229B1C42426266900FEED8F /* AfricaViewController.m in Sources */,
 				5243F4C924054B0C00FA4367 /* UnifiedCell.m in Sources */,
 				5243F3FE24054B0C00FA4367 /* BallTeamMember.m in Sources */,
 				5243F4E824054B0C00FA4367 /* personInfoTabCellTableViewCell.m in Sources */,
@@ -3914,7 +3919,6 @@
 				5243F42924054B0C00FA4367 /* PAHeader.m in Sources */,
 				5243F51A24054B0C00FA4367 /* PayMnetCustomCell.m in Sources */,
 				5243F53824054B0C00FA4367 /* HXZJPPersonalCenterCell.m in Sources */,
-				5243F47924054B0C00FA4367 /* AmericaVC.m in Sources */,
 				5243F51B24054B0C00FA4367 /* subscriptionRecordCell.m in Sources */,
 				5243F54124054B0C00FA4367 /* UISegmentedControl+Style_OC.m in Sources */,
 				5243F46424054B0C00FA4367 /* BallDataVC.m in Sources */,
@@ -3958,7 +3962,6 @@
 				52A2A27B2407B062005B1CC8 /* HXShoppingViewController.m in Sources */,
 				5243F50424054B0C00FA4367 /* userIntroVC.m in Sources */,
 				5243F11724054B0400FA4367 /* UILabel+extension.m in Sources */,
-				5229B1982425B16600FEED8F /* exceptionViewController.m in Sources */,
 				5243F4BF24054B0C00FA4367 /* DistributedVC.m in Sources */,
 				5243F4F624054B0C00FA4367 /* trendsVC.m in Sources */,
 				5243F47424054B0C00FA4367 /* interVC.m in Sources */,
@@ -3992,6 +3995,7 @@
 				5243F50D24054B0C00FA4367 /* collectCell.m in Sources */,
 				5243EFEB24054AF700FA4367 /* HXZiXunDetailFirstCell.m in Sources */,
 				5243F46B24054B0C00FA4367 /* FirstViewController.m in Sources */,
+				5229B1CA2426271F00FEED8F /* americasViewController.m in Sources */,
 				5243F11124054B0400FA4367 /* LBKitConst.m in Sources */,
 				5243F54624054B0C00FA4367 /* BasketBallVC.m in Sources */,
 				5243F47124054B0C00FA4367 /* ZJPSortView.m in Sources */,

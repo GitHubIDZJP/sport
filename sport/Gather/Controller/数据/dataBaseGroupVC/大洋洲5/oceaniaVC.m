@@ -7,27 +7,28 @@
 //
 
 
-
-
-
-#import "asianVC.h"
+#import "oceaniaVC.h"
 #define ChooseColor UIColor.whiteColor
 #import "MyCollectionViewCell.h"
-@interface asianVC ()<UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface oceaniaVC ()<UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 {
     
     NSInteger collectionIndex;
+    NSDictionary *apiGlobalDic;
+       //定义全局数组
+       NSArray *apiGlobalArr;
+    
 }
 @property(nonatomic,strong)NSArray *textLabel;
 @property(nonatomic,strong)NSArray *collectionCounts;
 @property(nonatomic,strong) NSArray *bosses;//老板
-
 @property(nonatomic,strong) NSArray *bamboo;//竹林
 @property(nonatomic,strong) NSArray *mountains;//山间
+
 @end
 
 
-@implementation asianVC
+@implementation oceaniaVC
 -(NSArray *)collectionCounts{
     
     if(!_collectionCounts){
@@ -39,7 +40,7 @@
 -(NSArray *)bosses
 {
     if(!_bosses){
-        _bosses =  @[@"西甲",@"中超",@"飞利浦",@"加林",@"流甲",@"西已",@"西曼",];
+      //  _bosses =  @[@"西甲",@"中超",@"飞利浦",@"加林",@"流甲",@"西已",@"西曼",];
     }
     return _bosses;
 }
@@ -47,7 +48,7 @@
 -(NSArray *)bamboo
 {
     if(!_bamboo){
-        _bamboo =  @[@"西甲2",@"中超2",@"飞利浦2",@"加林2",@"流甲2",@"西已2",@"西曼2",];
+        //_bamboo =  @[@"西甲2",@"中超2",@"飞利浦2",@"加林2",@"流甲2",@"西已2",@"西曼2",];
     }
     return _bamboo;
 }
@@ -55,7 +56,7 @@
 -(NSArray *)mountains
 {
     if(!_mountains){
-        _mountains =  @[@"西甲1",@"中超1",@"飞利浦1",@"加林1",@"流甲1",@"西已1",@"西曼1",];
+       // _mountains =  @[@"西甲1",@"中超1",@"飞利浦1",@"加林1",@"流甲1",@"西已1",@"西曼1",];
     }
     return _mountains;
 }
@@ -81,7 +82,6 @@
 }
 -(UICollectionView*)collection
 {
-    
     if(!_collection){
         _collection = [[UICollectionView alloc]initWithFrame:CGRectMake(_tableView.x + _tableView.width,0 ,SCREEN_WIDTH - _tableView.width ,SCREEN_HEIGHT- 200*KWIDTH) collectionViewLayout:self.layout];
         _collection.backgroundColor =UIColor.whiteColor;
@@ -100,7 +100,10 @@
     
     if(!_textLabel){
         
-        _textLabel = @[@"国际赛事",@"沙滩赛事",@"中超赛事"];
+        
+        
+        
+     //   _textLabel = @[@"科索沃",@"英格兰",@"意大利",@"西班牙",@"德国",@"法国",@"葡萄牙",@"苏格兰",@"荷兰",@"比利时",@"瑞典",@"芬兰",@"挪威",@"丹麦",@"a奥地利",@"瑞士",@"爱尔兰",@"北爱尔兰",@"俄罗斯",@"波兰",@"乌克兰",@"捷克",@"希腊",@"罗马尼亚",@"西洛伐克",];
     }
     return _textLabel;
     
@@ -108,6 +111,7 @@
 -(UITableView *)tableView{
     
     if(!_tableView){
+      //  NSInteger tabH =self.textLabel.count * 88*KWIDTH;
         _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0,177*KWIDTH,SCREEN_HEIGHT) style:UITableViewStyleGrouped];
         _tableView.delegate=self;
         _tableView.dataSource=self;
@@ -116,7 +120,9 @@
         // _tableView.dataSource = self;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
         _tableView.separatorColor = tableSeparatorColor;
-        _tableView.rowHeight = 80*KWIDTH;
+       // _tableView.rowHeight = 80*KWIDTH;
+        _tableView.showsVerticalScrollIndicator = NO;//q去掉右侧滑动条
+        _tableView.contentOffset = CGPointMake(177*KWIDTH, SCREEN_HEIGHT*1.5);
         IOS11;
         
     }
@@ -124,19 +130,57 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        // 只执行1次的代码(这里面默认是线程安全的)
+       [self initData];
+    });
     [self loadSub];
-    
-    
-    
-    
-    
 }
 -(void)loadSub{
     
     [self.view addSubview:self.tableView];
     [self.view addSubview:self.collection];
     
+}
+-(void)initData{
+ 
+NSDictionary *parameter = [[NSDictionary alloc]init];
+//https://sports.hxweixin.top/api/v1/fbinfo/infoNav
+//http://www.cnstorm.com/index.php?route=api/tool/config
+ [[zjpNetWork manager]POST:@"https://sports.hxweixin.top/api/v1/fbinfo/infoNav" parameters:parameter success:^(id responseBody) {
+                  NSLog(@"成功");
+           if([responseBody[@"code"] intValue] == 200){
+                         
+               
+               self->apiGlobalArr = responseBody[@"data"];
+               NSString *str =self->apiGlobalArr[1][@"country_array"][0][@"country_name"][0];
+                         NSLog(@"数组-1-%@",str);
+                NSString *str1 =self->apiGlobalArr[1][@"country_array"][1][@"country_name"][0];
+                NSString *str2 =self->apiGlobalArr[1][@"country_array"][2][@"country_name"][0];
+                NSString *str3 =self->apiGlobalArr[1][@"country_array"][3][@"country_name"][0];
+                NSString *str4 =self->apiGlobalArr[1][@"country_array"][4][@"country_name"][0];
+                NSString *str5 =self->apiGlobalArr[1][@"country_array"][5][@"country_name"][0];
+                NSString *str6 =self->apiGlobalArr[1][@"country_array"][6][@"country_name"][0];
+                NSString *str7 =self->apiGlobalArr[1][@"country_array"][7][@"country_name"][0];
+               
+               
+          
+               
+                          NSLog(@"数组-2-%@",str1);
+                          _textLabel = @[str,str1,str2,str3,str4,str5,str6,str7];
+                 
+               [self.tableView reloadData];
+              
+               _bosses =self->apiGlobalArr[4][@"country_array"][0][@"union_array"];
+               _bamboo = self->apiGlobalArr[4][@"country_array"][1][@"union_array"];
+               _mountains =self->apiGlobalArr[4][@"country_array"][2][@"union_array"];
+                             [self.collection reloadData];
+                     }
+       
+              } failure:^(NSError *error) {
+                  NSLog(@"失败");
+              }];
 }
 #pragma mark 设置个数
 //代理collection
@@ -161,14 +205,15 @@
     
     collectionIndex = indexPath.row;
     if(isSel == 0){
-        
-        cell.titleLabel.text= self.bosses[indexPath.row];
-    }else if (isSel == 1){
-        cell.titleLabel.text = self.bamboo[indexPath.row];
-    }else if (isSel == 2){
-        
-        cell.titleLabel.text= self.mountains[indexPath.row];
-    }
+           
+           cell.titleLabel.text=  self.bosses[indexPath.row][@"union_name"][0];
+       }else if (isSel == 1){
+           cell.titleLabel.text =  self.bamboo[indexPath.row][@"union_name"][0];
+       }else if (isSel == 2){
+           
+           cell.titleLabel.text= self.mountains[indexPath.row][@"union_name"][0];
+       }
+    
     return cell;
 }
 //选中操作
@@ -180,6 +225,8 @@
 }
 //选中操作:
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    //
+    
     /*
     if(indexPath.row == 0){
         __block  UIViewController *vc = self;
@@ -190,11 +237,11 @@
             ctrl.modalPresentationStyle = 0;
             [vc presentViewController:ctrl animated:NO completion:nil];
         }
-    };*/
+    };
+     */
     TeamListVC *childVC = [[TeamListVC alloc]init];
     [self.navigationController pushViewController:childVC animated:YES];
 }
-
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     return CGSizeMake(80,34);
@@ -240,29 +287,13 @@
         
         
     }
-    
-    if(isSel == 0)
-    {
-        if(indexPath.row == 0){
-            cell.backgroundColor = ChooseColor;
+    for(int i = 0;i <self.textLabel.count;i++ ){
+        if(isSel == indexPath.row){
+             cell.backgroundColor = ChooseColor;
         }else{
             cell.backgroundColor = color(242, 242, 242);
         }
-    }else if (isSel == 1){
         
-        if(indexPath.row == 1){
-            cell.backgroundColor = ChooseColor;
-        }else{
-            cell.backgroundColor = color(242, 242, 242);
-        }
-    }else if (isSel== 2)
-    {
-        
-        if(indexPath.row == 2){
-            cell.backgroundColor = ChooseColor;
-        }else{
-            cell.backgroundColor = color(242, 242, 242);
-        }
     }
     cell.textLabel.text = self.textLabel[indexPath.row];
     cell.textLabel.font = Font13;
@@ -280,7 +311,6 @@
     switch (isSel) {
         case 0:
         {
-            
             
             [self.collection reloadData];
             

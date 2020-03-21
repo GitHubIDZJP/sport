@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) NSArray *scrTitleArray;//scr_title
 @property(nonatomic,strong)customNavigationBar *NavBar;
-
+@property (assign, nonatomic) BOOL isFromHome;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		13DDD1D218ADE557C9B4D595 /* Pods_sport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C42AB888C623E433C432B8 /* Pods_sport.framework */; };
+		5229B1982425B16600FEED8F /* exceptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229B1962425B16600FEED8F /* exceptionViewController.m */; };
+		5229B1992425B16600FEED8F /* exceptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5229B1972425B16600FEED8F /* exceptionViewController.xib */; };
 		5243EFBC24054A9F00FA4367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFBB24054A9F00FA4367 /* AppDelegate.m */; };
 		5243EFBF24054A9F00FA4367 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFBE24054A9F00FA4367 /* SceneDelegate.m */; };
 		5243EFC224054A9F00FA4367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFC124054A9F00FA4367 /* ViewController.m */; };
@@ -565,6 +567,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5229B1952425B16600FEED8F /* exceptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exceptionViewController.h; sourceTree = "<group>"; };
+		5229B1962425B16600FEED8F /* exceptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exceptionViewController.m; sourceTree = "<group>"; };
+		5229B1972425B16600FEED8F /* exceptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = exceptionViewController.xib; sourceTree = "<group>"; };
 		5243EFB724054A9F00FA4367 /* sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5243EFBA24054A9F00FA4367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5243EFBB24054A9F00FA4367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1392,6 +1397,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5229B19A2425B1DA00FEED8F /* 美洲赛事6 */ = {
+			isa = PBXGroup;
+			children = (
+				5229B1952425B16600FEED8F /* exceptionViewController.h */,
+				5229B1962425B16600FEED8F /* exceptionViewController.m */,
+				5229B1972425B16600FEED8F /* exceptionViewController.xib */,
+			);
+			path = "美洲赛事6";
+			sourceTree = "<group>";
+		};
 		5243EFAE24054A9F00FA4367 = {
 			isa = PBXGroup;
 			children = (
@@ -1923,6 +1938,7 @@
 		5243F17724054B0A00FA4367 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5243F24724054B0B00FA4367 /* 拖拽按钮封装 */,
 				5243F17824054B0A00FA4367 /* 我的 */,
 				5243F17924054B0A00FA4367 /* 首页 */,
 				5243F17A24054B0A00FA4367 /* 比分 */,
@@ -1965,13 +1981,13 @@
 		5243F17C24054B0A00FA4367 /* 数据 */ = {
 			isa = PBXGroup;
 			children = (
+				5243F24424054B0B00FA4367 /* dataBaseGroupVC */,
 				5243F17D24054B0A00FA4367 /* 推荐-球员-资料-赛程 */,
 				5243F1B224054B0A00FA4367 /* MTSearchBar */,
 				5243F1B624054B0A00FA4367 /* 数据-球员分析 */,
 				5243F1FB24054B0A00FA4367 /* TeamListVC */,
 				5243F21724054B0B00FA4367 /* Score-first */,
 				5243F22A24054B0B00FA4367 /* SegChildViews */,
-				5243F24424054B0B00FA4367 /* dataBaseGroupVC */,
 				5243F26024054B0B00FA4367 /* scheduleCell */,
 				5243F26424054B0B00FA4367 /* 积分榜-球员榜-球队榜-赛程-盘路 */,
 				5243F26724054B0B00FA4367 /* 右tabcell自定义 */,
@@ -2284,8 +2300,8 @@
 		5243F21824054B0B00FA4367 /* dataBase */ = {
 			isa = PBXGroup;
 			children = (
-				5243F21924054B0B00FA4367 /* dataBase.m */,
 				5243F21A24054B0B00FA4367 /* dataBase.h */,
+				5243F21924054B0B00FA4367 /* dataBase.m */,
 			);
 			path = dataBase;
 			sourceTree = "<group>";
@@ -2360,26 +2376,25 @@
 		5243F24424054B0B00FA4367 /* dataBaseGroupVC */ = {
 			isa = PBXGroup;
 			children = (
-				5243F24524054B0B00FA4367 /* 关注 */,
-				5243F24B24054B0B00FA4367 /* 欧洲 */,
-				5243F24F24054B0B00FA4367 /* 国际 */,
-				5243F25224054B0B00FA4367 /* 亚洲 */,
-				5243F25524054B0B00FA4367 /* 关注视图---------> */,
+				5229B19A2425B1DA00FEED8F /* 美洲赛事6 */,
+				5243F24524054B0B00FA4367 /* 关注0 */,
+				5243F24B24054B0B00FA4367 /* 欧洲2 */,
+				5243F24F24054B0B00FA4367 /* 国际1 */,
+				5243F25224054B0B00FA4367 /* 大洋洲赛事4 */,
 				5243F25624054B0B00FA4367 /* interVCCollectionCellCustom */,
-				5243F25924054B0B00FA4367 /* 大洋洲 */,
-				5243F25D24054B0B00FA4367 /* 美洲 */,
+				5243F25924054B0B00FA4367 /* 大洋洲5 */,
+				5243F25D24054B0B00FA4367 /* 亚洲赛事3 */,
 			);
 			path = dataBaseGroupVC;
 			sourceTree = "<group>";
 		};
-		5243F24524054B0B00FA4367 /* 关注 */ = {
+		5243F24524054B0B00FA4367 /* 关注0 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F24624054B0B00FA4367 /* attentionVC.m */,
-				5243F24724054B0B00FA4367 /* 拖拽按钮封装 */,
 				5243F24A24054B0B00FA4367 /* attentionVC.h */,
 			);
-			path = "关注";
+			path = "关注0";
 			sourceTree = "<group>";
 		};
 		5243F24724054B0B00FA4367 /* 拖拽按钮封装 */ = {
@@ -2391,39 +2406,32 @@
 			path = "拖拽按钮封装";
 			sourceTree = "<group>";
 		};
-		5243F24B24054B0B00FA4367 /* 欧洲 */ = {
+		5243F24B24054B0B00FA4367 /* 欧洲2 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F24C24054B0B00FA4367 /* EuropeVC.m */,
 				5243F24D24054B0B00FA4367 /* EuropeVC.h */,
 				5243F24E24054B0B00FA4367 /* EuropeVC.xib */,
 			);
-			path = "欧洲";
+			path = "欧洲2";
 			sourceTree = "<group>";
 		};
-		5243F24F24054B0B00FA4367 /* 国际 */ = {
+		5243F24F24054B0B00FA4367 /* 国际1 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25024054B0B00FA4367 /* interVC.m */,
 				5243F25124054B0B00FA4367 /* interVC.h */,
 			);
-			path = "国际";
+			path = "国际1";
 			sourceTree = "<group>";
 		};
-		5243F25224054B0B00FA4367 /* 亚洲 */ = {
+		5243F25224054B0B00FA4367 /* 大洋洲赛事4 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25324054B0B00FA4367 /* asianVC.h */,
 				5243F25424054B0B00FA4367 /* asianVC.m */,
 			);
-			path = "亚洲";
-			sourceTree = "<group>";
-		};
-		5243F25524054B0B00FA4367 /* 关注视图---------> */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "关注视图--------->";
+			path = "大洋洲赛事4";
 			sourceTree = "<group>";
 		};
 		5243F25624054B0B00FA4367 /* interVCCollectionCellCustom */ = {
@@ -2435,23 +2443,23 @@
 			path = interVCCollectionCellCustom;
 			sourceTree = "<group>";
 		};
-		5243F25924054B0B00FA4367 /* 大洋洲 */ = {
+		5243F25924054B0B00FA4367 /* 大洋洲5 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25A24054B0B00FA4367 /* oceaniaVC.m */,
 				5243F25B24054B0B00FA4367 /* oceaniaVC.xib */,
 				5243F25C24054B0B00FA4367 /* oceaniaVC.h */,
 			);
-			path = "大洋洲";
+			path = "大洋洲5";
 			sourceTree = "<group>";
 		};
-		5243F25D24054B0B00FA4367 /* 美洲 */ = {
+		5243F25D24054B0B00FA4367 /* 亚洲赛事3 */ = {
 			isa = PBXGroup;
 			children = (
 				5243F25E24054B0B00FA4367 /* AmericaVC.h */,
 				5243F25F24054B0B00FA4367 /* AmericaVC.m */,
 			);
-			path = "美洲";
+			path = "亚洲赛事3";
 			sourceTree = "<group>";
 		};
 		5243F26024054B0B00FA4367 /* scheduleCell */ = {
@@ -3512,6 +3520,7 @@
 				5243F48F24054B0C00FA4367 /* PersonalCenterAvatars@3x.png in Resources */,
 				5243F55F24054B0C00FA4367 /* noSel@3x.png in Resources */,
 				5243EFCA24054AA200FA4367 /* LaunchScreen.storyboard in Resources */,
+				5229B1992425B16600FEED8F /* exceptionViewController.xib in Resources */,
 				5243F4DF24054B0C00FA4367 /* 通知(1)@3x.png in Resources */,
 				5243F42D24054B0C00FA4367 /* FloatingWindow@3x.png in Resources */,
 				5243F43424054B0C00FA4367 /* 图层 1@2x.png in Resources */,
@@ -3949,6 +3958,7 @@
 				52A2A27B2407B062005B1CC8 /* HXShoppingViewController.m in Sources */,
 				5243F50424054B0C00FA4367 /* userIntroVC.m in Sources */,
 				5243F11724054B0400FA4367 /* UILabel+extension.m in Sources */,
+				5229B1982425B16600FEED8F /* exceptionViewController.m in Sources */,
 				5243F4BF24054B0C00FA4367 /* DistributedVC.m in Sources */,
 				5243F4F624054B0C00FA4367 /* trendsVC.m in Sources */,
 				5243F47424054B0C00FA4367 /* interVC.m in Sources */,

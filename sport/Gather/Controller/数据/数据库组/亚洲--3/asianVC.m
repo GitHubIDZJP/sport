@@ -8,10 +8,10 @@
 
 
 
-#import "interVC.h"
+#import "asianVC.h"
 #define ChooseColor UIColor.whiteColor
 #import "MyCollectionViewCell.h"
-@interface interVC ()<UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface asianVC ()<UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 {
     NSInteger collectionIndex;
     NSDictionary *apiGlobalDic;
@@ -26,7 +26,7 @@
 @property(nonatomic,copy) NSArray *leftArr;
 @property(nonatomic,copy) NSArray *rightArr;
 @end
-@implementation interVC
+@implementation asianVC
 -(UICollectionViewFlowLayout*)layout
 {
     if(!_layout)

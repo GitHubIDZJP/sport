@@ -8,10 +8,10 @@
 
 
 
-#import "asianVC.h"
+#import "interVC.h"
 #define ChooseColor UIColor.whiteColor
 #import "MyCollectionViewCell.h"
-@interface asianVC ()<UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface interVC ()<UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 {
     NSInteger collectionIndex;
     NSDictionary *apiGlobalDic;
@@ -26,7 +26,7 @@
 @property(nonatomic,copy) NSArray *leftArr;
 @property(nonatomic,copy) NSArray *rightArr;
 @end
-@implementation asianVC
+@implementation interVC
 -(UICollectionViewFlowLayout*)layout
 {
     if(!_layout)
@@ -81,8 +81,7 @@
                   NSLog(@"成功");
            if([responseBody[@"code"] intValue] == 200){
                 NSDictionary *dic = responseBody;
-               // 这个3代表返回的第四个数组，就是头部那一行
-                self.leftArr = dic[@"data"][self.index][@"country_array"];
+                self.leftArr = dic[@"data"][self.index-1][@"country_array"];
                 self.rightArr = self.leftArr[self.isSel][@"union_array"];
                [self.tableView reloadData];
                [self.collection reloadData];  }} failure:^(NSError *error){NSLog(@"失败"); }];
@@ -97,6 +96,8 @@
 {
     MyCollectionViewCell *cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     cell.titleLabel.text = self.rightArr[indexPath.row][@"union_name"][0];
+    //字符串ID
+    //cell.titleLabel.text = [NSString stringWithFormat:@"%@",self.rightArr[indexPath.row][@"union_id"]] ;
     return cell;
 }
 -(void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -106,6 +107,8 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     TeamListVC *childVC = [[TeamListVC alloc]init];
     childVC.title = self.rightArr[indexPath.row][@"union_name"][0];
+    //字符串ID
+   // childVC.title = [NSString stringWithFormat:@"%@",self.rightArr[indexPath.row][@"union_id"]] ;
     [self.navigationController pushViewController:childVC animated:YES];
 }
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13DDD1D218ADE557C9B4D595 /* Pods_sport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C42AB888C623E433C432B8 /* Pods_sport.framework */; };
-		5229B1C42426266900FEED8F /* AfricaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229B1C22426266900FEED8F /* AfricaViewController.m */; };
-		5229B1C52426266A00FEED8F /* AfricaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5229B1C32426266900FEED8F /* AfricaViewController.xib */; };
-		5229B1CA2426271F00FEED8F /* americasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229B1C82426271F00FEED8F /* americasViewController.m */; };
-		5229B1CB2426271F00FEED8F /* americasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5229B1C92426271F00FEED8F /* americasViewController.xib */; };
 		5243EFBC24054A9F00FA4367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFBB24054A9F00FA4367 /* AppDelegate.m */; };
 		5243EFBF24054A9F00FA4367 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFBE24054A9F00FA4367 /* SceneDelegate.m */; };
 		5243EFC224054A9F00FA4367 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243EFC124054A9F00FA4367 /* ViewController.m */; };
@@ -296,15 +292,7 @@
 		5243F46D24054B0C00FA4367 /* fourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F24124054B0B00FA4367 /* fourthViewController.m */; };
 		5243F46E24054B0C00FA4367 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F24224054B0B00FA4367 /* SecondViewController.m */; };
 		5243F46F24054B0C00FA4367 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F24324054B0B00FA4367 /* thirdViewController.m */; };
-		5243F47024054B0C00FA4367 /* attentionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F24624054B0B00FA4367 /* attentionVC.m */; };
 		5243F47124054B0C00FA4367 /* ZJPSortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F24824054B0B00FA4367 /* ZJPSortView.m */; };
-		5243F47224054B0C00FA4367 /* EuropeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F24C24054B0B00FA4367 /* EuropeVC.m */; };
-		5243F47324054B0C00FA4367 /* EuropeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5243F24E24054B0B00FA4367 /* EuropeVC.xib */; };
-		5243F47424054B0C00FA4367 /* interVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25024054B0B00FA4367 /* interVC.m */; };
-		5243F47524054B0C00FA4367 /* asianVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25424054B0B00FA4367 /* asianVC.m */; };
-		5243F47624054B0C00FA4367 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25824054B0B00FA4367 /* MyCollectionViewCell.m */; };
-		5243F47724054B0C00FA4367 /* oceaniaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F25A24054B0B00FA4367 /* oceaniaVC.m */; };
-		5243F47824054B0C00FA4367 /* oceaniaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5243F25B24054B0B00FA4367 /* oceaniaVC.xib */; };
 		5243F47A24054B0C00FA4367 /* scheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F26124054B0B00FA4367 /* scheduleCell.m */; };
 		5243F47B24054B0C00FA4367 /* scheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5243F26224054B0B00FA4367 /* scheduleCell.xib */; };
 		5243F47C24054B0C00FA4367 /* SectionChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243F26624054B0B00FA4367 /* SectionChooseView.m */; };
@@ -565,15 +553,21 @@
 		52A2A2762407AF92005B1CC8 /* 购物车_me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A2A2742407AF92005B1CC8 /* 购物车_me@3x.png */; };
 		52A2A27B2407B062005B1CC8 /* HXShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A2A2792407B062005B1CC8 /* HXShoppingViewController.m */; };
 		52A2A27C2407B062005B1CC8 /* HXShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A2A27A2407B062005B1CC8 /* HXShoppingViewController.xib */; };
+		52C3279124284C1F005AC7D1 /* EuropeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C3276124284C1A005AC7D1 /* EuropeVC.xib */; };
+		52C3279424284C1F005AC7D1 /* AfricaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3276724284C1B005AC7D1 /* AfricaViewController.m */; };
+		52C3279524284C1F005AC7D1 /* americasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C3276824284C1B005AC7D1 /* americasViewController.xib */; };
+		52C3279624284C1F005AC7D1 /* EuropeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3276924284C1B005AC7D1 /* EuropeVC.m */; };
+		52C3279724284C1F005AC7D1 /* asianVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3276B24284C1B005AC7D1 /* asianVC.m */; };
+		52C3279824284C1F005AC7D1 /* attentionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3276C24284C1B005AC7D1 /* attentionVC.m */; };
+		52C3279924284C1F005AC7D1 /* oceaniaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3277024284C1C005AC7D1 /* oceaniaVC.m */; };
+		52C3279B24284C1F005AC7D1 /* AfricaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C3277424284C1C005AC7D1 /* AfricaViewController.xib */; };
+		52C3279D24284C1F005AC7D1 /* americasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3277C24284C1D005AC7D1 /* americasViewController.m */; };
+		52C3279E24284C1F005AC7D1 /* oceaniaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C3277F24284C1D005AC7D1 /* oceaniaVC.xib */; };
+		52C327A024284C1F005AC7D1 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3278124284C1D005AC7D1 /* MyCollectionViewCell.m */; };
+		52C327A124284C1F005AC7D1 /* interVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3278224284C1D005AC7D1 /* interVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5229B1C12426266900FEED8F /* AfricaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfricaViewController.h; sourceTree = "<group>"; };
-		5229B1C22426266900FEED8F /* AfricaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfricaViewController.m; sourceTree = "<group>"; };
-		5229B1C32426266900FEED8F /* AfricaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfricaViewController.xib; sourceTree = "<group>"; };
-		5229B1C72426271F00FEED8F /* americasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = americasViewController.h; sourceTree = "<group>"; };
-		5229B1C82426271F00FEED8F /* americasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = americasViewController.m; sourceTree = "<group>"; };
-		5229B1C92426271F00FEED8F /* americasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = americasViewController.xib; sourceTree = "<group>"; };
 		5243EFB724054A9F00FA4367 /* sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5243EFBA24054A9F00FA4367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5243EFBB24054A9F00FA4367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -992,22 +986,8 @@
 		5243F24124054B0B00FA4367 /* fourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourthViewController.m; sourceTree = "<group>"; };
 		5243F24224054B0B00FA4367 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5243F24324054B0B00FA4367 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdViewController.m; sourceTree = "<group>"; };
-		5243F24624054B0B00FA4367 /* attentionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attentionVC.m; sourceTree = "<group>"; };
 		5243F24824054B0B00FA4367 /* ZJPSortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPSortView.m; sourceTree = "<group>"; };
 		5243F24924054B0B00FA4367 /* ZJPSortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPSortView.h; sourceTree = "<group>"; };
-		5243F24A24054B0B00FA4367 /* attentionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attentionVC.h; sourceTree = "<group>"; };
-		5243F24C24054B0B00FA4367 /* EuropeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuropeVC.m; sourceTree = "<group>"; };
-		5243F24D24054B0B00FA4367 /* EuropeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuropeVC.h; sourceTree = "<group>"; };
-		5243F24E24054B0B00FA4367 /* EuropeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EuropeVC.xib; sourceTree = "<group>"; };
-		5243F25024054B0B00FA4367 /* interVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = interVC.m; sourceTree = "<group>"; };
-		5243F25124054B0B00FA4367 /* interVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interVC.h; sourceTree = "<group>"; };
-		5243F25324054B0B00FA4367 /* asianVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asianVC.h; sourceTree = "<group>"; };
-		5243F25424054B0B00FA4367 /* asianVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asianVC.m; sourceTree = "<group>"; };
-		5243F25724054B0B00FA4367 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
-		5243F25824054B0B00FA4367 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
-		5243F25A24054B0B00FA4367 /* oceaniaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oceaniaVC.m; sourceTree = "<group>"; };
-		5243F25B24054B0B00FA4367 /* oceaniaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = oceaniaVC.xib; sourceTree = "<group>"; };
-		5243F25C24054B0B00FA4367 /* oceaniaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oceaniaVC.h; sourceTree = "<group>"; };
 		5243F26124054B0B00FA4367 /* scheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scheduleCell.m; sourceTree = "<group>"; };
 		5243F26224054B0B00FA4367 /* scheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scheduleCell.xib; sourceTree = "<group>"; };
 		5243F26324054B0B00FA4367 /* scheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scheduleCell.h; sourceTree = "<group>"; };
@@ -1365,6 +1345,26 @@
 		52A2A2782407B062005B1CC8 /* HXShoppingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXShoppingViewController.h; sourceTree = "<group>"; };
 		52A2A2792407B062005B1CC8 /* HXShoppingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXShoppingViewController.m; sourceTree = "<group>"; };
 		52A2A27A2407B062005B1CC8 /* HXShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXShoppingViewController.xib; sourceTree = "<group>"; };
+		52C3276124284C1A005AC7D1 /* EuropeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EuropeVC.xib; sourceTree = "<group>"; };
+		52C3276724284C1B005AC7D1 /* AfricaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfricaViewController.m; sourceTree = "<group>"; };
+		52C3276824284C1B005AC7D1 /* americasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = americasViewController.xib; sourceTree = "<group>"; };
+		52C3276924284C1B005AC7D1 /* EuropeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuropeVC.m; sourceTree = "<group>"; };
+		52C3276A24284C1B005AC7D1 /* oceaniaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oceaniaVC.h; sourceTree = "<group>"; };
+		52C3276B24284C1B005AC7D1 /* asianVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asianVC.m; sourceTree = "<group>"; };
+		52C3276C24284C1B005AC7D1 /* attentionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attentionVC.m; sourceTree = "<group>"; };
+		52C3276D24284C1C005AC7D1 /* attentionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attentionVC.h; sourceTree = "<group>"; };
+		52C3277024284C1C005AC7D1 /* oceaniaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oceaniaVC.m; sourceTree = "<group>"; };
+		52C3277124284C1C005AC7D1 /* EuropeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuropeVC.h; sourceTree = "<group>"; };
+		52C3277424284C1C005AC7D1 /* AfricaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AfricaViewController.xib; sourceTree = "<group>"; };
+		52C3277724284C1C005AC7D1 /* interVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interVC.h; sourceTree = "<group>"; };
+		52C3277A24284C1D005AC7D1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		52C3277C24284C1D005AC7D1 /* americasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = americasViewController.m; sourceTree = "<group>"; };
+		52C3277D24284C1D005AC7D1 /* americasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = americasViewController.h; sourceTree = "<group>"; };
+		52C3277E24284C1D005AC7D1 /* asianVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asianVC.h; sourceTree = "<group>"; };
+		52C3277F24284C1D005AC7D1 /* oceaniaVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = oceaniaVC.xib; sourceTree = "<group>"; };
+		52C3278124284C1D005AC7D1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		52C3278224284C1D005AC7D1 /* interVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = interVC.m; sourceTree = "<group>"; };
+		52C3278924284C1E005AC7D1 /* AfricaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfricaViewController.h; sourceTree = "<group>"; };
 		5525E3EA8129BC72B00A6E65 /* Pods-sport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sport.release.xcconfig"; path = "Target Support Files/Pods-sport/Pods-sport.release.xcconfig"; sourceTree = "<group>"; };
 		91C42AB888C623E433C432B8 /* Pods_sport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		932406B12A6DC4771B75E3E9 /* Pods-sport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sport.debug.xcconfig"; path = "Target Support Files/Pods-sport/Pods-sport.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1397,26 +1397,6 @@
 				5525E3EA8129BC72B00A6E65 /* Pods-sport.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		5229B1C02426265B00FEED8F /* 非洲--5 */ = {
-			isa = PBXGroup;
-			children = (
-				5229B1C12426266900FEED8F /* AfricaViewController.h */,
-				5229B1C22426266900FEED8F /* AfricaViewController.m */,
-				5229B1C32426266900FEED8F /* AfricaViewController.xib */,
-			);
-			path = "非洲--5";
-			sourceTree = "<group>";
-		};
-		5229B1C62426271400FEED8F /* 美洲--6 */ = {
-			isa = PBXGroup;
-			children = (
-				5229B1C72426271F00FEED8F /* americasViewController.h */,
-				5229B1C82426271F00FEED8F /* americasViewController.m */,
-				5229B1C92426271F00FEED8F /* americasViewController.xib */,
-			);
-			path = "美洲--6";
 			sourceTree = "<group>";
 		};
 		5243EFAE24054A9F00FA4367 = {
@@ -1993,7 +1973,7 @@
 		5243F17C24054B0A00FA4367 /* 数据 */ = {
 			isa = PBXGroup;
 			children = (
-				5243F24424054B0B00FA4367 /* dataBaseGroupVC */,
+				52C327AA24285000005AC7D1 /* 数据库组 */,
 				5243F17D24054B0A00FA4367 /* 推荐-球员-资料-赛程 */,
 				5243F1B224054B0A00FA4367 /* MTSearchBar */,
 				5243F1B624054B0A00FA4367 /* 数据-球员分析 */,
@@ -2385,30 +2365,6 @@
 			path = "盘路cell";
 			sourceTree = "<group>";
 		};
-		5243F24424054B0B00FA4367 /* dataBaseGroupVC */ = {
-			isa = PBXGroup;
-			children = (
-				5243F25624054B0B00FA4367 /* 国际cell */,
-				5243F24524054B0B00FA4367 /* 关注--0 */,
-				5243F24F24054B0B00FA4367 /* 国际--1 */,
-				5243F24B24054B0B00FA4367 /* 欧洲--2 */,
-				5243F25224054B0B00FA4367 /* 亚洲--3 */,
-				5243F25924054B0B00FA4367 /* 大洋洲--4 */,
-				5229B1C02426265B00FEED8F /* 非洲--5 */,
-				5229B1C62426271400FEED8F /* 美洲--6 */,
-			);
-			path = dataBaseGroupVC;
-			sourceTree = "<group>";
-		};
-		5243F24524054B0B00FA4367 /* 关注--0 */ = {
-			isa = PBXGroup;
-			children = (
-				5243F24624054B0B00FA4367 /* attentionVC.m */,
-				5243F24A24054B0B00FA4367 /* attentionVC.h */,
-			);
-			path = "关注--0";
-			sourceTree = "<group>";
-		};
 		5243F24724054B0B00FA4367 /* 拖拽按钮封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2416,53 +2372,6 @@
 				5243F24924054B0B00FA4367 /* ZJPSortView.h */,
 			);
 			path = "拖拽按钮封装";
-			sourceTree = "<group>";
-		};
-		5243F24B24054B0B00FA4367 /* 欧洲--2 */ = {
-			isa = PBXGroup;
-			children = (
-				5243F24D24054B0B00FA4367 /* EuropeVC.h */,
-				5243F24C24054B0B00FA4367 /* EuropeVC.m */,
-				5243F24E24054B0B00FA4367 /* EuropeVC.xib */,
-			);
-			path = "欧洲--2";
-			sourceTree = "<group>";
-		};
-		5243F24F24054B0B00FA4367 /* 国际--1 */ = {
-			isa = PBXGroup;
-			children = (
-				5243F25024054B0B00FA4367 /* interVC.m */,
-				5243F25124054B0B00FA4367 /* interVC.h */,
-			);
-			path = "国际--1";
-			sourceTree = "<group>";
-		};
-		5243F25224054B0B00FA4367 /* 亚洲--3 */ = {
-			isa = PBXGroup;
-			children = (
-				5243F25324054B0B00FA4367 /* asianVC.h */,
-				5243F25424054B0B00FA4367 /* asianVC.m */,
-			);
-			path = "亚洲--3";
-			sourceTree = "<group>";
-		};
-		5243F25624054B0B00FA4367 /* 国际cell */ = {
-			isa = PBXGroup;
-			children = (
-				5243F25724054B0B00FA4367 /* MyCollectionViewCell.h */,
-				5243F25824054B0B00FA4367 /* MyCollectionViewCell.m */,
-			);
-			path = "国际cell";
-			sourceTree = "<group>";
-		};
-		5243F25924054B0B00FA4367 /* 大洋洲--4 */ = {
-			isa = PBXGroup;
-			children = (
-				5243F25A24054B0B00FA4367 /* oceaniaVC.m */,
-				5243F25B24054B0B00FA4367 /* oceaniaVC.xib */,
-				5243F25C24054B0B00FA4367 /* oceaniaVC.h */,
-			);
-			path = "大洋洲--4";
 			sourceTree = "<group>";
 		};
 		5243F26024054B0B00FA4367 /* scheduleCell */ = {
@@ -3345,6 +3254,97 @@
 			path = socketDemo;
 			sourceTree = "<group>";
 		};
+		52C3276224284C1A005AC7D1 /* 国际cell */ = {
+			isa = PBXGroup;
+			children = (
+				52C3277A24284C1D005AC7D1 /* MyCollectionViewCell.h */,
+				52C3278124284C1D005AC7D1 /* MyCollectionViewCell.m */,
+			);
+			path = "国际cell";
+			sourceTree = "<group>";
+		};
+		52C3276F24284C1C005AC7D1 /* 欧洲--2 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3277124284C1C005AC7D1 /* EuropeVC.h */,
+				52C3276924284C1B005AC7D1 /* EuropeVC.m */,
+				52C3276124284C1A005AC7D1 /* EuropeVC.xib */,
+			);
+			path = "欧洲--2";
+			sourceTree = "<group>";
+		};
+		52C3277224284C1C005AC7D1 /* 大洋洲--4 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3276A24284C1B005AC7D1 /* oceaniaVC.h */,
+				52C3277024284C1C005AC7D1 /* oceaniaVC.m */,
+				52C3277F24284C1D005AC7D1 /* oceaniaVC.xib */,
+			);
+			path = "大洋洲--4";
+			sourceTree = "<group>";
+		};
+		52C3277524284C1C005AC7D1 /* 非洲--5 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3278924284C1E005AC7D1 /* AfricaViewController.h */,
+				52C3276724284C1B005AC7D1 /* AfricaViewController.m */,
+				52C3277424284C1C005AC7D1 /* AfricaViewController.xib */,
+			);
+			path = "非洲--5";
+			sourceTree = "<group>";
+		};
+		52C3277824284C1D005AC7D1 /* 国际--1 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3277724284C1C005AC7D1 /* interVC.h */,
+				52C3278224284C1D005AC7D1 /* interVC.m */,
+			);
+			path = "国际--1";
+			sourceTree = "<group>";
+		};
+		52C3277924284C1D005AC7D1 /* 关注--0 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3276D24284C1C005AC7D1 /* attentionVC.h */,
+				52C3276C24284C1B005AC7D1 /* attentionVC.m */,
+			);
+			path = "关注--0";
+			sourceTree = "<group>";
+		};
+		52C3277B24284C1D005AC7D1 /* 亚洲--3 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3277E24284C1D005AC7D1 /* asianVC.h */,
+				52C3276B24284C1B005AC7D1 /* asianVC.m */,
+			);
+			path = "亚洲--3";
+			sourceTree = "<group>";
+		};
+		52C3278624284C1E005AC7D1 /* 美洲6 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3277D24284C1D005AC7D1 /* americasViewController.h */,
+				52C3277C24284C1D005AC7D1 /* americasViewController.m */,
+				52C3276824284C1B005AC7D1 /* americasViewController.xib */,
+			);
+			path = "美洲6";
+			sourceTree = "<group>";
+		};
+		52C327AA24285000005AC7D1 /* 数据库组 */ = {
+			isa = PBXGroup;
+			children = (
+				52C3276224284C1A005AC7D1 /* 国际cell */,
+				52C3277924284C1D005AC7D1 /* 关注--0 */,
+				52C3277824284C1D005AC7D1 /* 国际--1 */,
+				52C3276F24284C1C005AC7D1 /* 欧洲--2 */,
+				52C3277B24284C1D005AC7D1 /* 亚洲--3 */,
+				52C3277224284C1C005AC7D1 /* 大洋洲--4 */,
+				52C3277524284C1C005AC7D1 /* 非洲--5 */,
+				52C3278624284C1E005AC7D1 /* 美洲6 */,
+			);
+			path = "数据库组";
+			sourceTree = "<group>";
+		};
 		52E35FCD2405541C0005CBB2 /* AdapteriOS13 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3421,6 +3421,7 @@
 				5243F13A24054B0400FA4367 /* 专家@3x.png in Resources */,
 				5243F52F24054B0C00FA4367 /* HXArticlesViewController.xib in Resources */,
 				5243F4DE24054B0C00FA4367 /* play@2x.png in Resources */,
+				52C3279E24284C1F005AC7D1 /* oceaniaVC.xib in Resources */,
 				5243F16524054B0400FA4367 /* 账单_me@3x.png in Resources */,
 				5243F48624054B0C00FA4367 /* figure@2x.png in Resources */,
 				5243F49624054B0C00FA4367 /* PersonalCenterFocusBtn@2x.png in Resources */,
@@ -3471,7 +3472,6 @@
 				5243F15824054B0400FA4367 /* 粉丝_me@3x.png in Resources */,
 				5243F54924054B0C00FA4367 /* gou@2x.png in Resources */,
 				5243F16624054B0400FA4367 /* 账单_me@2x.png in Resources */,
-				5243F47324054B0C00FA4367 /* EuropeVC.xib in Resources */,
 				5243F15A24054B0400FA4367 /* 客服_me@3x.png in Resources */,
 				5243F42A24054B0C00FA4367 /* PAHeader.xib in Resources */,
 				5243F10424054B0400FA4367 /* 返 回@3x.png in Resources */,
@@ -3486,7 +3486,6 @@
 				5243F14224054B0400FA4367 /* 客服@2x.png in Resources */,
 				5243F56624054B0C00FA4367 /* 返 回 拷贝@2x.png in Resources */,
 				5243F48C24054B0C00FA4367 /* HXTestViewController.xib in Resources */,
-				5229B1C52426266A00FEED8F /* AfricaViewController.xib in Resources */,
 				5243F46024054B0C00FA4367 /* 8@2x.png in Resources */,
 				5243F4C424054B0C00FA4367 /* 组 1@2x.png in Resources */,
 				5243F4B324054B0C00FA4367 /* TEST.xib in Resources */,
@@ -3523,6 +3522,7 @@
 				5243F3FD24054B0C00FA4367 /* 本田@3x.png in Resources */,
 				5243F48F24054B0C00FA4367 /* PersonalCenterAvatars@3x.png in Resources */,
 				5243F55F24054B0C00FA4367 /* noSel@3x.png in Resources */,
+				52C3279524284C1F005AC7D1 /* americasViewController.xib in Resources */,
 				5243EFCA24054AA200FA4367 /* LaunchScreen.storyboard in Resources */,
 				5243F4DF24054B0C00FA4367 /* 通知(1)@3x.png in Resources */,
 				5243F42D24054B0C00FA4367 /* FloatingWindow@3x.png in Resources */,
@@ -3574,7 +3574,6 @@
 				5243F4F024054B0C00FA4367 /* 美女@3x.png in Resources */,
 				5243F3FB24054B0C00FA4367 /* peopleRecommendationVC.xib in Resources */,
 				5243F42824054B0C00FA4367 /* PlayerAnalysisVC.xib in Resources */,
-				5243F47824054B0C00FA4367 /* oceaniaVC.xib in Resources */,
 				5243F17324054B0500FA4367 /* 消息_me@3x.png in Resources */,
 				5243F14D24054B0400FA4367 /* homePageBarItemViewController.xib in Resources */,
 				5243F4CC24054B0C00FA4367 /* 申请@2x.png in Resources */,
@@ -3621,7 +3620,6 @@
 				5243F3F924054B0C00FA4367 /* PlayerInformationVC.xib in Resources */,
 				5243F10E24054B0400FA4367 /* upIcon.png in Resources */,
 				5243F0FF24054B0400FA4367 /* selectYes@2x.png in Resources */,
-				5229B1CB2426271F00FEED8F /* americasViewController.xib in Resources */,
 				5243F54D24054B0C00FA4367 /* logo2@2x.png in Resources */,
 				5243F44324054B0C00FA4367 /* 浏览_me_test@3x.png in Resources */,
 				5243F43324054B0C00FA4367 /* 0b46f21fbe096b63c86d919602338744eaf8ac84 拷贝@3x.png in Resources */,
@@ -3679,6 +3677,7 @@
 				5243F48324054B0C00FA4367 /* student@2x.png in Resources */,
 				5243F56A24054B0C00FA4367 /* Image 拷贝 2@3x.png in Resources */,
 				5243F53924054B0C00FA4367 /* HXZJPPersonalCenterCell.xib in Resources */,
+				52C3279124284C1F005AC7D1 /* EuropeVC.xib in Resources */,
 				5243F53624054B0C00FA4367 /* 点赞@3x.png in Resources */,
 				5243F48724054B0C00FA4367 /* panda@2x.png in Resources */,
 				5243F57324054B0C00FA4367 /* NonselectiveState@2x.png in Resources */,
@@ -3698,6 +3697,7 @@
 				5243F53C24054B0C00FA4367 /* nextView.xib in Resources */,
 				5243F55924054B0C00FA4367 /* 微信图标@3x.png in Resources */,
 				5243F0EA24054B0400FA4367 /* found_search@3x.png in Resources */,
+				52C3279B24284C1F005AC7D1 /* AfricaViewController.xib in Resources */,
 				5243F41824054B0C00FA4367 /* backBtn@2x.png in Resources */,
 				5243F46824054B0C00FA4367 /* PanRoadCell.xib in Resources */,
 				5243F49E24054B0C00FA4367 /* 金钱@3x.png in Resources */,
@@ -3793,12 +3793,11 @@
 				5243F14E24054B0400FA4367 /* BaseNavigationController.m in Sources */,
 				5243F49C24054B0C00FA4367 /* userProfileVC.m in Sources */,
 				5243F47A24054B0C00FA4367 /* scheduleCell.m in Sources */,
-				5229B1C42426266900FEED8F /* AfricaViewController.m in Sources */,
 				5243F4C924054B0C00FA4367 /* UnifiedCell.m in Sources */,
 				5243F3FE24054B0C00FA4367 /* BallTeamMember.m in Sources */,
 				5243F4E824054B0C00FA4367 /* personInfoTabCellTableViewCell.m in Sources */,
 				5243F50224054B0C00FA4367 /* replacePhoneNumber.m in Sources */,
-				5243F47724054B0C00FA4367 /* oceaniaVC.m in Sources */,
+				52C3279724284C1F005AC7D1 /* asianVC.m in Sources */,
 				5243F0FE24054B0400FA4367 /* myUILabel.m in Sources */,
 				5243F12224054B0400FA4367 /* NSArray+Log.m in Sources */,
 				5243F54A24054B0C00FA4367 /* loginVC.m in Sources */,
@@ -3830,6 +3829,7 @@
 				5243F46224054B0C00FA4367 /* HalfCourtItegralVC.m in Sources */,
 				5243F50A24054B0C00FA4367 /* collectVC.m in Sources */,
 				5243F0FC24054B0400FA4367 /* RotaryButton.m in Sources */,
+				52C3279D24284C1F005AC7D1 /* americasViewController.m in Sources */,
 				5243F46724054B0C00FA4367 /* dataAnalysisView.m in Sources */,
 				5243F42024054B0C00FA4367 /* oneUIView.m in Sources */,
 				5243F4CF24054B0C00FA4367 /* AccountSetVC.m in Sources */,
@@ -3837,8 +3837,10 @@
 				5243F57424054B0C00FA4367 /* userCenterHeaderView.m in Sources */,
 				5273BFBA2424CF3D007BA3EE /* zjpNetWork.m in Sources */,
 				5243F46324054B0C00FA4367 /* dataTableCell.m in Sources */,
+				52C327A024284C1F005AC7D1 /* MyCollectionViewCell.m in Sources */,
 				5243F53024054B0C00FA4367 /* HXArticlesViewController.m in Sources */,
 				5243F0F024054B0400FA4367 /* setButtonRadius.m in Sources */,
+				52C3279924284C1F005AC7D1 /* oceaniaVC.m in Sources */,
 				5243F0F524054B0400FA4367 /* CBasePageController.m in Sources */,
 				5243F4D924054B0C00FA4367 /* statusBtn.m in Sources */,
 				5243F4D024054B0C00FA4367 /* HXPublishedArticlesViewController.m in Sources */,
@@ -3882,12 +3884,14 @@
 				5243F12A24054B0400FA4367 /* CameraGetPhotos.m in Sources */,
 				5243F14B24054B0400FA4367 /* dataSourceBarItemViewController.m in Sources */,
 				5243F55B24054B0C00FA4367 /* UIBezier.m in Sources */,
+				52C3279624284C1F005AC7D1 /* EuropeVC.m in Sources */,
 				5243F43A24054B0C00FA4367 /* RecommendedDataHeaderView.m in Sources */,
 				5243F11B24054B0400FA4367 /* NSDate+Extension.m in Sources */,
 				5243F10D24054B0400FA4367 /* UIViewExt.m in Sources */,
 				5243F10F24054B0400FA4367 /* LBSegmentControl.m in Sources */,
 				5243F0F424054B0400FA4367 /* CustomLine.m in Sources */,
 				5243F4FD24054B0C00FA4367 /* SubscriptionTableViewCell.m in Sources */,
+				52C327A124284C1F005AC7D1 /* interVC.m in Sources */,
 				5243F13024054B0400FA4367 /* homePageBarItemViewController.m in Sources */,
 				5243F46C24054B0C00FA4367 /* sixthViewController.m in Sources */,
 				5243F53724054B0C00FA4367 /* HXBasketballViewController.m in Sources */,
@@ -3903,6 +3907,7 @@
 				5243F52A24054B0C00FA4367 /* moneyJoinVC.m in Sources */,
 				5243F43D24054B0C00FA4367 /* RecommendedDataCell.m in Sources */,
 				5243F4F824054B0C00FA4367 /* indicate.m in Sources */,
+				52C3279424284C1F005AC7D1 /* AfricaViewController.m in Sources */,
 				5243F14F24054B0400FA4367 /* MCTabBar.m in Sources */,
 				5282E5EA2411E009006B8818 /* UISegmentedControl+adapter.m in Sources */,
 				5243F52424054B0C00FA4367 /* applyForUserVC.m in Sources */,
@@ -3934,7 +3939,6 @@
 				5243F0FA24054B0400FA4367 /* SuperParentView.m in Sources */,
 				5243F52624054B0C00FA4367 /* userCenterVC.m in Sources */,
 				5243F4B424054B0C00FA4367 /* userPhoneNumberSetVC.m in Sources */,
-				5243F47624054B0C00FA4367 /* MyCollectionViewCell.m in Sources */,
 				5243F12C24054B0400FA4367 /* mineBarItemViewController.m in Sources */,
 				5243F12724054B0400FA4367 /* publishPictureView.m in Sources */,
 				5243F51724054B0C00FA4367 /* UISegmentedControl+Category.m in Sources */,
@@ -3954,7 +3958,6 @@
 				5243F4C624054B0C00FA4367 /* ApproveVC.m in Sources */,
 				5243F12E24054B0400FA4367 /* chatBarItemViewController.m in Sources */,
 				5243F52824054B0C00FA4367 /* userRecommendedCell.m in Sources */,
-				5243F47524054B0C00FA4367 /* asianVC.m in Sources */,
 				5243F56924054B0C00FA4367 /* means.m in Sources */,
 				5243F41A24054B0C00FA4367 /* DataTeamVC.m in Sources */,
 				5243F42224054B0C00FA4367 /* twoUIView.m in Sources */,
@@ -3964,7 +3967,6 @@
 				5243F11724054B0400FA4367 /* UILabel+extension.m in Sources */,
 				5243F4BF24054B0C00FA4367 /* DistributedVC.m in Sources */,
 				5243F4F624054B0C00FA4367 /* trendsVC.m in Sources */,
-				5243F47424054B0C00FA4367 /* interVC.m in Sources */,
 				5243F51524054B0C00FA4367 /* addAttentionVC.m in Sources */,
 				5243F49824054B0C00FA4367 /* HXPersonalCenterViewController.m in Sources */,
 				5243F50724054B0C00FA4367 /* userFansVC.m in Sources */,
@@ -3982,6 +3984,7 @@
 				5243F11424054B0400FA4367 /* UIColor+ColorChange.m in Sources */,
 				5243F45A24054B0C00FA4367 /* dataBase.m in Sources */,
 				5243F4B024054B0C00FA4367 /* InviteFriendsVC.m in Sources */,
+				52C3279824284C1F005AC7D1 /* attentionVC.m in Sources */,
 				5243F4DA24054B0C00FA4367 /* messageCenterVC.m in Sources */,
 				5243F42324054B0C00FA4367 /* teamMembersVC.m in Sources */,
 				5243F45824054B0C00FA4367 /* CustomSegmentView.m in Sources */,
@@ -3995,7 +3998,6 @@
 				5243F50D24054B0C00FA4367 /* collectCell.m in Sources */,
 				5243EFEB24054AF700FA4367 /* HXZiXunDetailFirstCell.m in Sources */,
 				5243F46B24054B0C00FA4367 /* FirstViewController.m in Sources */,
-				5229B1CA2426271F00FEED8F /* americasViewController.m in Sources */,
 				5243F11124054B0400FA4367 /* LBKitConst.m in Sources */,
 				5243F54624054B0C00FA4367 /* BasketBallVC.m in Sources */,
 				5243F47124054B0C00FA4367 /* ZJPSortView.m in Sources */,
@@ -4005,7 +4007,6 @@
 				5243F4E624054B0C00FA4367 /* customTextView.m in Sources */,
 				5243F52124054B0C00FA4367 /* WritingForPublicationVC.m in Sources */,
 				5243F52C24054B0C00FA4367 /* UserFocusVC.m in Sources */,
-				5243F47024054B0C00FA4367 /* attentionVC.m in Sources */,
 				5243F54824054B0C00FA4367 /* articleVC.m in Sources */,
 				5243F11D24054B0400FA4367 /* UIButton+HXIncreaseClickArea.m in Sources */,
 				5243F41124054B0C00FA4367 /* contestVCTableCell.m in Sources */,
@@ -4015,7 +4016,6 @@
 				5243F43C24054B0C00FA4367 /* RecommendedData.m in Sources */,
 				5243F10724054B0400FA4367 /* blockButton.m in Sources */,
 				5243F48B24054B0C00FA4367 /* HXTestViewController.m in Sources */,
-				5243F47224054B0C00FA4367 /* EuropeVC.m in Sources */,
 				5243F11524054B0400FA4367 /* NSDictionary+Log.m in Sources */,
 				5243F12324054B0400FA4367 /* SingleObject.m in Sources */,
 				5243F11F24054B0400FA4367 /* UITextView+extendTextView.m in Sources */,
